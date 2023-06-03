@@ -1,0 +1,174 @@
+.menu-mobile{
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 56px;
+    background: #191919;
+    width: 100%;
+    padding: 15px 25px;
+    color: #fff;
+    font-size: 15px;
+    border-top: 3px solid #f8ac00;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.menu-mobile.darkmode{
+    background-color: #f0f0f0;
+    color: #222;
+}
+
+.menu-mobile ul{
+    list-style: none;
+}
+
+.menu-mobile ul li{
+    padding: 10px 0;
+}
+
+.menu-mobile ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-mobile.darkmode ul li a{
+    color: #222;
+}
+
+.btn-action.detail{
+    width: 60px;
+}
+
+.btn-action.diagnosa{
+    width: 86px;
+}
+
+@media (max-width:320px)  { 
+    /* smartphones, iPhone, portrait 480x320 phones */ 
+}
+
+@media (max-width:481px)  { 
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    h1{
+        font-size: 36px;
+    }
+   
+    h2{
+        font-size: 24px;
+    }
+
+    input, textarea{
+        /* width: 273px; */
+        width: calc(100% - 30px);
+    }
+    
+    header{
+        padding:0 25px;
+    }
+
+    header.dekstop{
+        display: none;
+    }
+
+    header.mobile{
+        display: flex;
+    }
+
+    nav ul li:first-child{
+        margin-right: 18px;
+    }
+
+    .wrapper{
+        padding: 56px 25px;
+    }
+
+    .cover img{
+        height: 35vh;
+    }
+
+    .group{
+        flex-direction: column;
+    }
+
+    .group .left{
+        margin-bottom: 30px;
+    }
+
+    .content-box img.img-cover{
+        margin-right: 0;
+    }
+
+    .content-box{
+        overflow-x: auto;
+    }
+
+    .content-box p{
+        font-size: 16px;
+    }
+
+    .box-hitung{
+        flex-direction: column;
+    }
+
+    .box-hitung .col-left, .box-hitung .col-right{
+        width: 100%;
+    }
+
+    .widget{
+        flex-direction: column;
+    }
+
+    .widget .col{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .widget .col .icon{
+        width: 140px;
+    }
+
+    .add-select{
+        width:39px;
+    }
+
+    i.menu{
+        margin-right: 16px;
+    }
+
+    .modal-box{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .box-gejala .col.col-1{
+        width: 14%;
+    }
+
+    .box-gejala .col.col-2{
+        width: 66%;
+        line-height: 1.5em;
+    }
+
+    table.compact{
+        white-space: nowrap;
+    }
+
+    footer{
+        padding:0 25px;
+    }
+}
+
+@media (min-width:641px)  { 
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+}
+
+@media (min-width:961px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+}
+
+@media (min-width:1025px) { 
+    /* big landscape tablets, laptops, and desktops */ 
+}
+
+@media (min-width:1281px) { 
+    /* hi-res laptops and desktops */ 
+}

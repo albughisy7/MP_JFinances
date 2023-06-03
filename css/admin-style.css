@@ -1,0 +1,64 @@
+/* Dashboard admin*/
+
+.widget{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 55px; */
+    color: #fff;
+}
+
+.widget .col{
+    width: 24%;
+    background-color: #2ECC71;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+
+.widget .col.clr2{
+    background-color: #23B7E5;
+}
+
+.widget .col.clr3{
+    background-color: #F39C12;
+}
+
+.widget .col.clr4{
+    background-color: #E74C3C;
+}
+
+.widget .col .status{
+    padding: 10px 25px;
+}
+
+.widget .col .status .jml{
+    font-size: 43px;
+    font-weight: 400;
+} 
+
+.widget .col .status .title-widget{
+    font-size: 18px;
+} 
+
+.widget .col .icon{
+    background-color: #29B665;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    border-radius: 0 3px 3px 0;
+}
+
+.widget .col .icon.clr2{
+    background-color: #1FA4CE;
+}
+
+.widget .col .icon.clr3{
+    background-color: #DA8C10;
+}
+
+.widget .col .icon.clr4{
+    background-color: #CF4436;
+}
