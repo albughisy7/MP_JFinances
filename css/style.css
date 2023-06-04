@@ -27,3 +27,11 @@ header.header{
     z-index: 999;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
+
+.header a{
+    font-size: 17px;
+}
+
+.header i.title{
+    font-size: 22px;
+}
