@@ -35,3 +35,20 @@ header.header{
 .header i.title{
     font-size: 22px;
 }
+
+.container{
+    color: #222;
+    margin-top: 56px;
+    padding: 25px 30px;
+}
+
+.container .title{
+    display: flex;
+    align-items: center;
+}
+
+.title i.h1{
+    font-size: 28px;
+    margin-right: 13px;
+}
+
